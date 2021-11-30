@@ -17,5 +17,6 @@ This is a calculator that calculates the distance between two words and outputs 
 - Go to calc.py and ctrl+F5
 
 This program uses the levenshtein algorithm
-To know more
-- Visit https://www.cuelogic.com/blog/the-levenshtein-algorithm
+- To know more:
+ 
+- - Visit https://www.cuelogic.com/blog/the-levenshtein-algorithm 
