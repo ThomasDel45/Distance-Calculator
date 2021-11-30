@@ -7,3 +7,8 @@ This is a calculator that calculates the distance between two words and outputs 
 - Clone and create your own branch of the project
 - Create a pull request
 - Wait for review before merging it in main
+
+# Languages
+- HTML
+- CSS
+- Python
