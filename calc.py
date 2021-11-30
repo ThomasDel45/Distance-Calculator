@@ -3,13 +3,48 @@ import webbrowser
 import time
 
 
-#testing = editdistance
+from flask import Flask, render_template, url_for, request
 
-html_content = f"<html> <head> </head> <body> </body> </html>"
+app = Flask(__name__)
 
-with open("index.html", "w") as html_file:
-    html_file.write(html_content)
-    print("Html file created successfully!!")
+ 
+
+@app.route('/')
+@app.route('/home')
+def home():
+    return render_template("index.html")
+
+
+
+@app.route('/result',methods=['POST', 'GET'])
+def result():
+    output = request.form.to_dict()
+    print(output)
+    name = output["name"]
+
+
+    return render_template('index.html', name = name)
+    
+
+
+
+
+if __name__ == "__main__":
+    app.run(debug=True)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 def distance(w1, w2):
