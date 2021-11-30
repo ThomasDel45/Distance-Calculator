@@ -1,1 +1,44 @@
-<html> <head> </head> <body> </body> </html>
+<html> 
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<link rel="stylesheet" type="text/css" href="../static/style.css"> 
+
+
+
+
+	</head>
+	
+	<body>
+
+        <form class="grid" action="/distance" method="POST">
+
+          {% if name %}
+            <center>
+              <h3 style="color: blue;" class="let_space">The words {{name}}, Distance Calculator</h3>
+            </center> 
+
+          {% endif %}
+           
+          <label for="w1">Enter the first word:</label>
+          <input type="text" id="w1" name="w1">
+          <label for="w2">Enter the second word:</label>
+          <input type="text" id="w2" name="w2">
+
+          <center><input class="file_submit" type="Submit"></center>
+
+        </form>
+
+        
+
+        
+
+        
+        <br>
+        <br>
+        <br>
+
+
+    </body>
+
+</html>
