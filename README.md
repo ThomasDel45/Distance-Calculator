@@ -12,3 +12,6 @@ This is a calculator that calculates the distance between two words and outputs 
 - HTML
 - CSS
 - Python
+
+# How to Run
+- Go to calc.py and ctrl+F5
