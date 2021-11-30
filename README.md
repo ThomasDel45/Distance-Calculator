@@ -5,13 +5,19 @@ This is a calculator that calculates the distance between two words and outputs 
 # How to Contirbute
 - Choose an issue you would like to contribute to
 - Clone and create your own branch of the project
-- Create a pull request
-- Wait for review before merging it in main
+- Leave a comment on how and what issues were fixed
+- Create a pull request from your branch to mine
+- On the main repository, make sure the main branch and your branch are being the ones compared
+- Publish your pull request
+- Wait for review and if there is nothing wrong I will merge it to main
 
 # Languages
 - HTML
 - CSS
 - Python
+
+# Tools
+- VScode
 
 # How to Run
 - Go to calc.py and ctrl+F5
