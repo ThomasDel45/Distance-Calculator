@@ -20,7 +20,9 @@ This is a calculator that calculates the distance between two words and outputs 
 - VScode
 
 # How to Run
-- Go to calc.py and ctrl+F5
+- Run VScode
+- Open folder
+- Go to the file named calc.py and ctrl+F5
 
 
 This program uses the levenshtein algorithm
