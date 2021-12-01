@@ -26,9 +26,16 @@ def result():
 
 @app.route('/distance',methods=['POST', 'GET'])
 def distance(w1, w2):
-
-    w1 = input('Enter first word: ')
-    w2 = input('Enter seond word: ')
+    while True:
+        w1 = input('Enter first word: ')
+        w2 = input('Enter second word: ')
+        if (str.isalpha(w1) == False or str.isalpha(w2) == False):
+            print("Sorry, please input only letters, or input quit to exit")
+            continue
+        elif(w1 == "exit" or w2 == "exit"):
+            quit()
+        else:
+            return
 
 
     r = len(w1) + 1
